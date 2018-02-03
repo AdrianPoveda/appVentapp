@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="7dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="7dp">
+
+    <ImageView
+        android:id="@+id/imgpropiedad"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtprecio"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtdescripcion"
+        android:textSize="12dip"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtprecio"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/checkBox_propiedad"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

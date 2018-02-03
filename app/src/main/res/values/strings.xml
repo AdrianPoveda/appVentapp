@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VentasApp</string>
+    <string name="title_activity_map_ventas">Map</string>
+    <string name="title_activity_ruta_mapa">Map</string>
+</resources>

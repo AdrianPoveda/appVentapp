@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuPrincipal"
+        android:title="Inicio">
+    </item>
+    <item android:id="@+id/buscar"
+        android:title="Buscar">
+    </item>
+    <item android:id="@+id/perfil"
+        android:title="Perfil">
+    </item>
+    <item android:id="@+id/publicaciones"
+        android:title="Publicaciones">
+    </item>
+    <item android:id="@+id/salirSesion"
+        android:title="Cerrar Sesión">
+    </item>
+</menu>
